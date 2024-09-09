@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #fbf4fd; 
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+}
+
+.wsaicon-container{
+    margin: 25px 60px;
+}
+
+.wsaicon{
+    height: 50px;
+    width: 150px;
+}
+
+.sub-container{
+    width: 100%;
+    height: 450px;
+}
+
+.header-container{
+    float: left;
+    width: 50%;
+}
+
+.header{
+    color: #000000;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    padding: 60px;
+}
+
+.calculator-container{
+    width: 50%;
+    height: 450px;
+    float: right;
+}
+
+.background-circle{
+    /* width: 450px;
+    height: 450px; */
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+     position: relative;
+     bottom: 10%; 
+    background-color: #f5eaf9;
+}
+
+.calculator{
+    /*width: 300px;*/
+    width: 350px;
+    /* height: 450px; */
+    height: 500px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 122%;
+    left: 11.5%;
+    border-radius: 33px;
+    border: 10px solid #e2e2e2;
+}
+
+.output-field-container{
+    background-color: #f3f2f2;
+    /* width: 265px; */
+    width: 320px;
+    height: 110px;
+    margin: 12px 16px;
+    border-radius: 20px;
+    border: none;
+}
+
+.output-field, .input-field{
+    background-color: #f3f2f2;
+    width: 94%;
+    margin: 1px 3px;
+    font-size: 40px;
+    padding: 13px 5px 0px 5px;
+    border-radius: 20px;
+    border: none;
+    text-align: right;
+}
+
+.output-field:focus{
+    outline: none;
+}
+
+.input-field:focus{
+    outline: none;
+}
+
+.btn-row{
+    margin: auto auto auto 24px;
+    width: 93%;
+}
+
+button{
+    margin: 4px 5px;
+    width: 50px;
+    border-radius: 10px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+}
+
+.bg-icon:hover{
+    background-color: #fceebd;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #2a2828;
+    color: #f3f2f2;
+}
+
+button > i{
+    color: #bd882a;
+    font-size: 15px;
+}
+button:hover > i{
+    color: white;
+}
+
+.bg-icon{
+    background-color: #fceebd;
+    color: #bd882a;
+}
+
+.zero{
+    width: 115px;
+}
+
+.equal-icon{
+    background-color: #ffc138;
+    position: absolute;
+    height: 108px;
+    right: 8px;
+}
+
+.footer-name{
+    font-family: "Poppins", sans-serif;
+    padding: 60px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+/*adding new css */
+.clear-icon{
+    width: 92px;
+}
+
+.delete-icon,.percentage-icon{
+    width: 92px;
+}
